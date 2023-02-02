@@ -1,0 +1,178 @@
+/*Imagen de fondo del body*/
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    font-family: ´Roboto´, sans-serif;
+}
+
+/*estilos generales*/
+header{
+    display: flex;
+    background-color: rgb(207, 164, 132);
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+footer{
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    color: orange;
+}
+
+h2{
+    text-align: center;
+}
+
+
+/*Estilos de index*/
+.Titulo-index{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.header__index nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.header__index nav ul li{
+    background-color: rgb(233, 75, 47);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.main__index{
+    padding: 30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main__index-uno, .main__index-dos{
+    background-image: url(../img/salmon-g45a037d60_640.jpg);
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    height: 300px;
+    border: 10px;
+}
+
+.main__index-uno h2, .main__index-dos h2{
+    margin-bottom: 20px;
+}
+
+
+/*estilos recetas*/
+
+.header__recetas nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.header__recetas nav ul li{
+    background-color: rgb(233, 75, 47);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.padre{
+    background-color: transparent;
+    margin-bottom: 200px;
+}
+
+.padre__hijo {
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*Estilos contacto*/
+
+.header__contacto nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.header__contacto nav ul li{
+    background-color: rgb(233, 75, 47);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+legend{
+    background-color: lavender;
+    font-size: large;
+    font-style: italic;
+}
+
+fieldset{
+    margin-top: 40px;
+}
+
+
+.contacto{
+    text-align: center;
+    font-style: normal;
+}
+
+.main__contacto{
+    margin-bottom: 200px;
+}
+
+
+/*Estilos historia*/
+
+.header__historia nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.header__historia nav ul li{
+    background-color: rgb(233, 75, 47);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main__historia{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/*Estilos menu*/
+
+.header__menu nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+.header__menu nav ul li{
+    background-color: rgb(233, 75, 47);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.padre__hijo--menu {
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+    color: orange;
+    font-size: 20px;
+}
